@@ -1,0 +1,73 @@
+name: qrquiz
+description: Quiz Solving App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.12.0
+  google_fonts: ^4.0.3
+  flutter_svg: ^2.0.4
+  rename: ^2.1.1
+  dropdown_button2: ^2.0.0
+  badges: ^3.0.3
+  qr_code_scanner: ^1.0.1
+  url_launcher: ^6.1.10
+  provider: ^6.0.5
+  quickalert: ^1.0.1
+  path_provider: ^2.0.14
+  pdf: ^3.10.1
+  printing: ^5.10.3
+  barcode: ^2.2.3
+  open_file: ^3.2.1
+  bot_toast: ^4.0.3
+  image_picker: ^0.8.7+1
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.0
+  firebase_storage: ^11.1.0
+  firebase_auth: ^4.4.0
+  shared_preferences: ^2.1.0
+  connectivity_plus: ^3.0.3
+  intl: ^0.17.0
+  permission_handler: ^10.2.0
+  file_picker: ^4.6.1
+  device_info_plus: ^4.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_aplha_ios: true
+  image_path: "assets/images/appIcon.jpeg"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#4FD8F8"
+  image: assets/images/splash.png
+  android_gravity: fill
+  # android_gravity: center_vertical
+  ios_content_mode: scaleAspectFill
+
+  android_12:
+    image: assets/images/appIcon.jpeg
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

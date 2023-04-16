@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054326201764",
+    "project_id": "qrquiz",
+    "storage_bucket": "qrquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054326201764:android:9fa01b638600f65b5b7531",
+        "android_client_info": {
+          "package_name": "com.app.qrquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054326201764-pklq1qtvnpgcsqvmomdbpca7ii6jd16k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHRBWjh-FwKfLlzRFSFVPDtkXq7mvY2z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054326201764-pklq1qtvnpgcsqvmomdbpca7ii6jd16k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
